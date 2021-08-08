@@ -1,0 +1,40 @@
+.btn {
+  border: 0;
+  border-radius: 4px;
+
+  font-size: 1em;
+  padding: .5em 1em;
+  cursor: pointer;
+
+  filter: brightness(1);
+  transition: .5s filter;
+
+  font-weight: bold;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+.btn.btn-lg {
+  font-size: 1.10em;
+}
+
+.btn.btn-sm {
+  font-size: .9rem;
+}
+
+.btn.btn-primary {
+  background: var(--contrast);
+  color: white;
+}
+
+.btn.btn-danger {
+  background: var(--red);
+  color: white;
+}
+
+.btn.btn-success {
+  background: var(--green);
+  color: white;
+}

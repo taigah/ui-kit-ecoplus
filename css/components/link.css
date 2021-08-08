@@ -1,0 +1,12 @@
+.link {
+  color: var(--contrast);
+  cursor: pointer;
+
+  filter: brightness(100%);
+  transition: .2s filter;
+}
+
+.link:hover {
+  text-decoration: underline;
+  filter: brightness(80%);
+}

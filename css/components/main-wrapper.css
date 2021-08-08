@@ -1,0 +1,5 @@
+.main-wrapper {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}

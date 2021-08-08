@@ -1,0 +1,12 @@
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: var(--gap);
+  column-gap: var(--gap);  
+}
+
+@media (min-width: 730px) {
+  .grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
