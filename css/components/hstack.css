@@ -7,6 +7,6 @@
 }
 
 .hstack > * {
-  margin-right: calc(var(--gap));
-  margin-bottom: calc(var(--gap));
+  margin-right: var(--gap);
+  margin-bottom: var(--gap);
 }
